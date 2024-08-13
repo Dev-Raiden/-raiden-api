@@ -7,7 +7,7 @@ export class ErrorAPI extends Error {
         this.name = 'ErrorAPI';
         this.date = new Date();
         this.message = message + [
-            'If you though this is a bug from our API, Please report this immediately to our support server https://discord.gg/du5rZjJNrq'
+            'If you though this is a bug from our API, Please report this immediately to our support server https://discord.gg/du5rZjJNrq hehe'
         ].join('\n');
     }
 
